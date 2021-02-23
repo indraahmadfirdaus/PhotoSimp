@@ -1,0 +1,41 @@
+<!-- write your code here -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,wght@0,200;0,300;0,400;0,600;0,700;1,300;1,400;1,600;1,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>PhotoSimp.</title>
+</head>
+<body>
+    <section id="home">
+        <div class="navbar-constructor">
+            <p>PhotoSimp</p>
+            <ul>
+                <li><a href="index.html">HOME</a></li>
+                <li><a onclick="offersNotYet()">OFFERS</a></li>
+                <li><a href="contact.html" target="_blank">CONTACT</a></li>
+            </ul>
+        </div>
+        <div class='welcoming-message-constructor'>
+            <h1>
+                <span>worry-free</span> qualty <br>photographers
+            </h1>
+             <a href="#" class="more-info-btn">More Info</a>
+        </div>
+        <div class="bg-video">
+            <video src="img/videoss.mp4" muted loop autoplay></video>
+        </div>
+    </section>
+
+    <script>
+        function offersNotYet(){
+            alert("sorry we're closed due covid-19")
+        }
+    </script>
+    
+</body>
+</html>

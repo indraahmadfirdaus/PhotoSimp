@@ -1,0 +1,175 @@
+/* write your code here */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Nunito Sans', sans-serif;
+    background-color: black;
+}
+.bg-video video{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    opacity: 0.4;
+}
+.navbar-constructor {
+    position: relative;
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: row;
+    z-index: 10;
+}
+
+.navbar-constructor p{
+    position: absolute;
+    font-size: 20px;
+    color: rgb(255, 219, 118);
+    left: 20px;
+    bottom: 15px;
+    font-weight: bold;
+}
+
+.navbar-constructor li {
+    margin: 15px 10px;
+    float: left;
+    list-style-type: none;
+    font-size: 20px;
+    align-items: center;
+}
+.navbar-constructor li a {
+    text-decoration: none;
+    color: white;
+    transition: 0.3s ease;
+    padding: 5px;
+
+}
+
+.navbar-constructor li a:hover {
+    background-color: white;
+    color: black;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.welcoming-message-constructor {
+    position: relative;
+    z-index: 10;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.welcoming-message-constructor h1{
+    position: absolute;
+    text-align: center;
+    top: 150px;
+    font-size: 60px;
+    color: white;
+}
+
+.welcoming-message-constructor h1 span {
+    color: rgb(255, 219, 118);
+}
+
+.more-info-btn {
+    text-decoration: none;
+    border: 2px solid rgb(255, 219, 118);
+    display: inline-block;
+    padding: 10px;
+    border-radius: 20px;
+    color: white;
+    position: absolute;
+    top: 350px;
+    transition: 0.3s;
+}
+.more-info-btn:hover {
+    background-color:rgb(255, 219, 118);
+}
+.bg-image {
+    background-image: url('img/1.jpg');
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.contact-message-constructor {
+    position: relative;
+    z-index: 10;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.kiri {
+    position: absolute;
+    text-align: left;
+    left: 30px;
+    top: 150px;
+    display: inline-block;
+}
+.kiri h1{
+    font-size: 60px;
+    color: white;
+}
+
+.kiri h1 span {
+    color: rgb(255, 219, 118);
+}
+
+.kanan {
+    position: absolute;
+    right: 30px;
+    top: 100px;
+    display: inline-block;
+    border: 1px solid rgb(255, 219, 118);
+    width: 750px;
+    height: 300px;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.kanan input {
+    padding: 10px;
+    align-items: center;
+    margin: 40px 0;
+    height: 50px;
+    width: 100%;
+    border-radius: 20px;
+    border: 1px solid rgb(255, 219, 118);
+}
+
+.submit-btn {
+    text-align: center;
+    text-decoration: none;
+    border: 2px solid rgb(255, 219, 118);
+    display: inline-block;
+    padding: 10px;
+    width: 200px;
+    border-radius: 20px;
+    color: white;
+    position: absolute;
+    top: 350px;
+    right: 300px;
+    transition: 0.3s;
+}
+.submit-btn:hover {
+    background-color:rgb(255, 219, 118);
+}
+
+.offers-card {
+    width: 320px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #fff;
+    color: #000;
+    text-align: center;
+    border-radius: 20px;
+     padding: 30px 30px 70px;
+}
